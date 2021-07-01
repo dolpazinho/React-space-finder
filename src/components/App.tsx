@@ -16,7 +16,6 @@ export class App extends React.Component<{}, AppState>{
 
             <div>
                 <Login authService={this.authService}/>
-                App from function works
             </div>
         )
     }
